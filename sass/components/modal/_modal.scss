@@ -1,0 +1,13 @@
+.modal {
+  margin: auto;
+  position: relative;
+  max-width: 528px;
+  max-height: 581px;
+
+  background: #fff;
+
+  transition: transform 1000ms linear 0.2s;
+  transform: translateX(0);
+  overflow-y: scroll;
+
+}

@@ -1,0 +1,35 @@
+.header {
+  @media screen and (max-width:767px){
+    position: relative;
+  }
+  border: 1px solid #ECECEC;
+  width: 100%;
+  background-color: $primary-white-color;
+
+  &__items {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  &__burger {
+    margin-left: auto;
+  }
+
+  &__logo{
+    width: 153px;
+    height: 31px;
+  }
+
+  &__item-logo {
+    max-width: 237px;
+    width: 100%;
+  }
+
+  &__contacts {
+
+    @media screen and (min-width: $tablet) {
+      margin-left: auto;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.sect--hidden {
+  @media screen and (max-width: 1199px){
+    display: none;
+  }
+}
+
+.case-list {
+
+  @media screen and (max-width: 1199px){
+    display: none;
+  }
+
+  display: flex;
+  margin: -15px;
+  flex-wrap: wrap;
+
+  &__item {
+    padding: 15px;
+  }
+
+  &__img {
+    position: relative;
+    width: 370px;
+    object-fit: cover;
+
+  }
+
+  &__title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  
+    text-align: center;
+    padding: 27px 0;
+    width: 100%;
+  
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.14;
+    color: $primary-white-color;
+    background-color: $bgc-case-section;
+  }
+
+}

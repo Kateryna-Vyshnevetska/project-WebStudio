@@ -1,0 +1,68 @@
+.cards {
+  background-color: $bgc-box-section;
+
+  &-list {
+    margin: -15px -15px;
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    
+  }
+}
+
+.card-list {
+
+  &__item-filler {
+  padding: 30px 32px 24px 32px;
+  } 
+
+  &__item {
+    margin: 15px 15px;
+    // width: 100%;
+    // max-width: 270px;
+    text-align: center;
+    line-height: 1.18em;
+    background-color: $primary-white-color;
+    box-shadow: $shadow-card;
+    border-radius: 4px;
+
+    @media screen and (min-width: $tablet) {
+      width: 354px;
+    }
+
+    @media screen and (min-width: $desktop) {
+      width: 270px;
+    }
+  }
+
+  &__img{
+    display: block;
+    width: 100%;
+    // height: 100%;
+    object-fit: cover;
+
+    // @media screen and (min-width: $tablet) {
+    //   height: 450px;
+    // }
+
+    // @media screen and (min-width: $desktop) {
+    //   height: 354px;
+    // }
+
+  }
+
+  &__title {
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+
+  &__text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
