@@ -38,7 +38,7 @@ body {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 a {
@@ -255,7 +255,7 @@ textarea {
 }
 
 .form-input {
-  width: 100%;
+  width: 450px;
   height: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -333,7 +333,7 @@ textarea {
 .hero__title {
   margin: 0 auto;
   margin-bottom: 30px;
-  max-width: 696px;
+  max-width: 360px;
   color: #fff;
   font-size: 26px;
   line-height: 1.6;
@@ -345,6 +345,7 @@ textarea {
   .hero__title {
     font-size: 44px;
     line-height: 1.36;
+    max-width: 696px;
   }
 }
 
@@ -392,6 +393,7 @@ textarea {
 }
 
 .menu-container {
+  z-index: 1;
   display: none;
   position: absolute;
   top: 103%;
@@ -1091,7 +1093,6 @@ textarea {
 }
 
 .card-list__img {
-  display: block;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -1155,7 +1156,6 @@ textarea {
 }
 
 .container {
-  outline: 1px solid red;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -1179,7 +1179,6 @@ textarea {
 }
 
 .layout__sect {
-  outline: 1px solid green;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1299,9 +1298,15 @@ textarea {
 .collection-list__img {
   position: relative;
   overflow: hidden;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .collection-list__link {
+  display: block;
   text-decoration: none;
 }
 

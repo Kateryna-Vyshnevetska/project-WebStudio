@@ -74,7 +74,7 @@
     margin: 0 auto;
     margin-bottom: 30px;
 
-    max-width: 696px;
+    max-width: 360px;
     color: #fff;
 
     font-size: 26px;
@@ -85,6 +85,7 @@
     @media screen and (min-width:$desktop) {
       font-size: 44px;
       line-height: 1.36;
+      max-width: 696px;
     }
   }
 }

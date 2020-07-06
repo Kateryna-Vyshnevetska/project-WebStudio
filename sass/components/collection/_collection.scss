@@ -35,9 +35,13 @@
 .collection-list__img {
   position: relative;
   overflow: hidden;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .collection-list__link {
+  display: block;
   text-decoration: none;
 }
 
